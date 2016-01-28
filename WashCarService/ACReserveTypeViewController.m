@@ -1,0 +1,52 @@
+//
+//  ACReserveTypeViewController.m
+//  WashCarService
+//
+//  Created by niupark on 16/1/28.
+//  Copyright © 2016年 niupark. All rights reserved.
+//
+
+#import "ACReserveTypeViewController.h"
+
+@interface ACReserveTypeViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@end
+
+@implementation ACReserveTypeViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 3;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TyreType"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]init];
+    }
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"Tyre" sender:nil];
+}
+@end

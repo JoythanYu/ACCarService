@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B4695371C58632A005EB644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4695361C58632A005EB644 /* main.m */; };
+		7B46953A1C58632A005EB644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4695391C58632A005EB644 /* AppDelegate.m */; };
+		7B4695401C58632A005EB644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B46953E1C58632A005EB644 /* Main.storyboard */; };
+		7B4695421C58632A005EB644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4695411C58632A005EB644 /* Assets.xcassets */; };
+		7B4695451C58632A005EB644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4695431C58632A005EB644 /* LaunchScreen.storyboard */; };
+		7B4695501C58632B005EB644 /* WashCarServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46954F1C58632B005EB644 /* WashCarServiceTests.m */; };
+		7B46955B1C58632B005EB644 /* WashCarServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46955A1C58632B005EB644 /* WashCarServiceUITests.m */; };
+		7B56A1A91C59B476006A24FF /* ACPromoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1A81C59B476006A24FF /* ACPromoteViewController.m */; };
+		7B56A1AC1C59B4C6006A24FF /* ACReserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1AB1C59B4C6006A24FF /* ACReserveViewController.m */; };
+		7B56A1AF1C59B604006A24FF /* ACCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1AE1C59B604006A24FF /* ACCarViewController.m */; };
+		7B56A1B21C59BC5C006A24FF /* ACReserveTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1B11C59BC5C006A24FF /* ACReserveTypeViewController.m */; };
+		7B56A1B51C59BDA9006A24FF /* ACServiceStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1B41C59BDA9006A24FF /* ACServiceStyleViewController.m */; };
+		7B56A1B81C59BF7A006A24FF /* ACUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1B71C59BF7A006A24FF /* ACUserInfoViewController.m */; };
+		7B56A1BB1C59C22D006A24FF /* ACShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1BA1C59C22D006A24FF /* ACShopListViewController.m */; };
+		7B56A1BE1C59C3AE006A24FF /* ACTyreListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B56A1BD1C59C3AE006A24FF /* ACTyreListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B46954C1C58632B005EB644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B46952A1C58632A005EB644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B4695311C58632A005EB644;
+			remoteInfo = WashCarService;
+		};
+		7B4695571C58632B005EB644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B46952A1C58632A005EB644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B4695311C58632A005EB644;
+			remoteInfo = WashCarService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B4695321C58632A005EB644 /* WashCarService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashCarService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4695361C58632A005EB644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B4695381C58632A005EB644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B4695391C58632A005EB644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B46953F1C58632A005EB644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B4695411C58632A005EB644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B4695441C58632A005EB644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B4695461C58632A005EB644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B46954B1C58632B005EB644 /* WashCarServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashCarServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B46954F1C58632B005EB644 /* WashCarServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WashCarServiceTests.m; sourceTree = "<group>"; };
+		7B4695511C58632B005EB644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4695561C58632B005EB644 /* WashCarServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashCarServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B46955A1C58632B005EB644 /* WashCarServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WashCarServiceUITests.m; sourceTree = "<group>"; };
+		7B46955C1C58632B005EB644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B56A1A71C59B476006A24FF /* ACPromoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPromoteViewController.h; sourceTree = "<group>"; };
+		7B56A1A81C59B476006A24FF /* ACPromoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPromoteViewController.m; sourceTree = "<group>"; };
+		7B56A1AA1C59B4C6006A24FF /* ACReserveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACReserveViewController.h; sourceTree = "<group>"; };
+		7B56A1AB1C59B4C6006A24FF /* ACReserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACReserveViewController.m; sourceTree = "<group>"; };
+		7B56A1AD1C59B604006A24FF /* ACCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCarViewController.h; sourceTree = "<group>"; };
+		7B56A1AE1C59B604006A24FF /* ACCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCarViewController.m; sourceTree = "<group>"; };
+		7B56A1B01C59BC5C006A24FF /* ACReserveTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACReserveTypeViewController.h; sourceTree = "<group>"; };
+		7B56A1B11C59BC5C006A24FF /* ACReserveTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACReserveTypeViewController.m; sourceTree = "<group>"; };
+		7B56A1B31C59BDA9006A24FF /* ACServiceStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACServiceStyleViewController.h; sourceTree = "<group>"; };
+		7B56A1B41C59BDA9006A24FF /* ACServiceStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACServiceStyleViewController.m; sourceTree = "<group>"; };
+		7B56A1B61C59BF7A006A24FF /* ACUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUserInfoViewController.h; sourceTree = "<group>"; };
+		7B56A1B71C59BF7A006A24FF /* ACUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUserInfoViewController.m; sourceTree = "<group>"; };
+		7B56A1B91C59C22D006A24FF /* ACShopListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACShopListViewController.h; sourceTree = "<group>"; };
+		7B56A1BA1C59C22D006A24FF /* ACShopListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACShopListViewController.m; sourceTree = "<group>"; };
+		7B56A1BC1C59C3AE006A24FF /* ACTyreListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTyreListViewController.h; sourceTree = "<group>"; };
+		7B56A1BD1C59C3AE006A24FF /* ACTyreListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACTyreListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B46952F1C58632A005EB644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4695481C58632B005EB644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4695531C58632B005EB644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B4695291C58632A005EB644 = {
+			isa = PBXGroup;
+			children = (
+				7B4695341C58632A005EB644 /* WashCarService */,
+				7B46954E1C58632B005EB644 /* WashCarServiceTests */,
+				7B4695591C58632B005EB644 /* WashCarServiceUITests */,
+				7B4695331C58632A005EB644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B4695331C58632A005EB644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4695321C58632A005EB644 /* WashCarService.app */,
+				7B46954B1C58632B005EB644 /* WashCarServiceTests.xctest */,
+				7B4695561C58632B005EB644 /* WashCarServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B4695341C58632A005EB644 /* WashCarService */ = {
+			isa = PBXGroup;
+			children = (
+				7B4695381C58632A005EB644 /* AppDelegate.h */,
+				7B4695391C58632A005EB644 /* AppDelegate.m */,
+				7B56A1A71C59B476006A24FF /* ACPromoteViewController.h */,
+				7B56A1A81C59B476006A24FF /* ACPromoteViewController.m */,
+				7B56A1AA1C59B4C6006A24FF /* ACReserveViewController.h */,
+				7B56A1AB1C59B4C6006A24FF /* ACReserveViewController.m */,
+				7B56A1AD1C59B604006A24FF /* ACCarViewController.h */,
+				7B56A1AE1C59B604006A24FF /* ACCarViewController.m */,
+				7B56A1B01C59BC5C006A24FF /* ACReserveTypeViewController.h */,
+				7B56A1B11C59BC5C006A24FF /* ACReserveTypeViewController.m */,
+				7B56A1B31C59BDA9006A24FF /* ACServiceStyleViewController.h */,
+				7B56A1B41C59BDA9006A24FF /* ACServiceStyleViewController.m */,
+				7B56A1B61C59BF7A006A24FF /* ACUserInfoViewController.h */,
+				7B56A1B71C59BF7A006A24FF /* ACUserInfoViewController.m */,
+				7B56A1B91C59C22D006A24FF /* ACShopListViewController.h */,
+				7B56A1BA1C59C22D006A24FF /* ACShopListViewController.m */,
+				7B56A1BC1C59C3AE006A24FF /* ACTyreListViewController.h */,
+				7B56A1BD1C59C3AE006A24FF /* ACTyreListViewController.m */,
+				7B56A1A61C59B3B6006A24FF /* New Group */,
+				7B46953E1C58632A005EB644 /* Main.storyboard */,
+				7B4695411C58632A005EB644 /* Assets.xcassets */,
+				7B4695431C58632A005EB644 /* LaunchScreen.storyboard */,
+				7B4695461C58632A005EB644 /* Info.plist */,
+				7B4695351C58632A005EB644 /* Supporting Files */,
+			);
+			path = WashCarService;
+			sourceTree = "<group>";
+		};
+		7B4695351C58632A005EB644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B4695361C58632A005EB644 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B46954E1C58632B005EB644 /* WashCarServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B46954F1C58632B005EB644 /* WashCarServiceTests.m */,
+				7B4695511C58632B005EB644 /* Info.plist */,
+			);
+			path = WashCarServiceTests;
+			sourceTree = "<group>";
+		};
+		7B4695591C58632B005EB644 /* WashCarServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B46955A1C58632B005EB644 /* WashCarServiceUITests.m */,
+				7B46955C1C58632B005EB644 /* Info.plist */,
+			);
+			path = WashCarServiceUITests;
+			sourceTree = "<group>";
+		};
+		7B56A1A61C59B3B6006A24FF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B4695311C58632A005EB644 /* WashCarService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B46955F1C58632B005EB644 /* Build configuration list for PBXNativeTarget "WashCarService" */;
+			buildPhases = (
+				7B46952E1C58632A005EB644 /* Sources */,
+				7B46952F1C58632A005EB644 /* Frameworks */,
+				7B4695301C58632A005EB644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WashCarService;
+			productName = WashCarService;
+			productReference = 7B4695321C58632A005EB644 /* WashCarService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B46954A1C58632B005EB644 /* WashCarServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4695621C58632B005EB644 /* Build configuration list for PBXNativeTarget "WashCarServiceTests" */;
+			buildPhases = (
+				7B4695471C58632B005EB644 /* Sources */,
+				7B4695481C58632B005EB644 /* Frameworks */,
+				7B4695491C58632B005EB644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B46954D1C58632B005EB644 /* PBXTargetDependency */,
+			);
+			name = WashCarServiceTests;
+			productName = WashCarServiceTests;
+			productReference = 7B46954B1C58632B005EB644 /* WashCarServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B4695551C58632B005EB644 /* WashCarServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4695651C58632B005EB644 /* Build configuration list for PBXNativeTarget "WashCarServiceUITests" */;
+			buildPhases = (
+				7B4695521C58632B005EB644 /* Sources */,
+				7B4695531C58632B005EB644 /* Frameworks */,
+				7B4695541C58632B005EB644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B4695581C58632B005EB644 /* PBXTargetDependency */,
+			);
+			name = WashCarServiceUITests;
+			productName = WashCarServiceUITests;
+			productReference = 7B4695561C58632B005EB644 /* WashCarServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B46952A1C58632A005EB644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = niupark;
+				TargetAttributes = {
+					7B4695311C58632A005EB644 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7B46954A1C58632B005EB644 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B4695311C58632A005EB644;
+					};
+					7B4695551C58632B005EB644 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B4695311C58632A005EB644;
+					};
+				};
+			};
+			buildConfigurationList = 7B46952D1C58632A005EB644 /* Build configuration list for PBXProject "WashCarService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B4695291C58632A005EB644;
+			productRefGroup = 7B4695331C58632A005EB644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B4695311C58632A005EB644 /* WashCarService */,
+				7B46954A1C58632B005EB644 /* WashCarServiceTests */,
+				7B4695551C58632B005EB644 /* WashCarServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B4695301C58632A005EB644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4695451C58632A005EB644 /* LaunchScreen.storyboard in Resources */,
+				7B4695421C58632A005EB644 /* Assets.xcassets in Resources */,
+				7B4695401C58632A005EB644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4695491C58632B005EB644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4695541C58632B005EB644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B46952E1C58632A005EB644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B56A1A91C59B476006A24FF /* ACPromoteViewController.m in Sources */,
+				7B56A1B21C59BC5C006A24FF /* ACReserveTypeViewController.m in Sources */,
+				7B56A1BB1C59C22D006A24FF /* ACShopListViewController.m in Sources */,
+				7B56A1B51C59BDA9006A24FF /* ACServiceStyleViewController.m in Sources */,
+				7B56A1B81C59BF7A006A24FF /* ACUserInfoViewController.m in Sources */,
+				7B46953A1C58632A005EB644 /* AppDelegate.m in Sources */,
+				7B4695371C58632A005EB644 /* main.m in Sources */,
+				7B56A1AC1C59B4C6006A24FF /* ACReserveViewController.m in Sources */,
+				7B56A1BE1C59C3AE006A24FF /* ACTyreListViewController.m in Sources */,
+				7B56A1AF1C59B604006A24FF /* ACCarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4695471C58632B005EB644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4695501C58632B005EB644 /* WashCarServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4695521C58632B005EB644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B46955B1C58632B005EB644 /* WashCarServiceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B46954D1C58632B005EB644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B4695311C58632A005EB644 /* WashCarService */;
+			targetProxy = 7B46954C1C58632B005EB644 /* PBXContainerItemProxy */;
+		};
+		7B4695581C58632B005EB644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B4695311C58632A005EB644 /* WashCarService */;
+			targetProxy = 7B4695571C58632B005EB644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B46953E1C58632A005EB644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B46953F1C58632A005EB644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B4695431C58632A005EB644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B4695441C58632A005EB644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B46955D1C58632B005EB644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B46955E1C58632B005EB644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B4695601C58632B005EB644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ethan Yu (EE9WC2D33F)";
+				INFOPLIST_FILE = WashCarService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttkuaiche.WashCarService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4300e006-376f-4189-a375-231ec4e8b748";
+			};
+			name = Debug;
+		};
+		7B4695611C58632B005EB644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ethan Yu (EE9WC2D33F)";
+				INFOPLIST_FILE = WashCarService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttkuaiche.WashCarService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4300e006-376f-4189-a375-231ec4e8b748";
+			};
+			name = Release;
+		};
+		7B4695631C58632B005EB644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WashCarServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttkuaiche.WashCarServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WashCarService.app/WashCarService";
+			};
+			name = Debug;
+		};
+		7B4695641C58632B005EB644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WashCarServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttkuaiche.WashCarServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WashCarService.app/WashCarService";
+			};
+			name = Release;
+		};
+		7B4695661C58632B005EB644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WashCarServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttkuaiche.WashCarServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WashCarService;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7B4695671C58632B005EB644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WashCarServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttkuaiche.WashCarServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WashCarService;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B46952D1C58632A005EB644 /* Build configuration list for PBXProject "WashCarService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B46955D1C58632B005EB644 /* Debug */,
+				7B46955E1C58632B005EB644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B46955F1C58632B005EB644 /* Build configuration list for PBXNativeTarget "WashCarService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4695601C58632B005EB644 /* Debug */,
+				7B4695611C58632B005EB644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4695621C58632B005EB644 /* Build configuration list for PBXNativeTarget "WashCarServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4695631C58632B005EB644 /* Debug */,
+				7B4695641C58632B005EB644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4695651C58632B005EB644 /* Build configuration list for PBXNativeTarget "WashCarServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4695661C58632B005EB644 /* Debug */,
+				7B4695671C58632B005EB644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B46952A1C58632A005EB644 /* Project object */;
+}
